@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zamari TV</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -19,16 +21,8 @@
             <div class="grid-container">
                 <div class="grid-x align-justify align-middle">
                     <div class="brand cell shrink">
-                        <img src="/assets/svg/logo.svg" alt="">
-                    </div>
-                    <nav class="cell shrink">
-                        <ul class="menu main">
-                            <li><a href="">TV</a></li>
-                            <li><a href="">Podcast</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Yard</a></li>
-                        </ul>
-                    </nav>
+                       <a href="" target="_blank"><img src="/assets/svg/logo.svg" alt=""></a>
+                    </div>                
                     <div class="access cell shrink">
                         <ul class="menu">
                             <li><a href="">Login</a></li>
@@ -38,17 +32,82 @@
                 </div>
             </div>
         </header>
+        <nav class="nav-bar">
+            <ul class="menu main align-center-middle">
+                <li>
+                    <a href="tv.html" class="dropdown">TV</a>
+                        <div class="mega-menu">
+                            <div class="grid-container inner-mega-menu">
+                                <div class="grid-x gut2">
+                                    <ul class="shrink">
+                                        <li><a href="">Shows</a></li>
+                                        <li><a href="">Short Films</a></li>
+                                        <li><a href="">Feature Films</a></li>
+                                        <li><a href="">Documentaries</a></li>
+                                    </ul>
+                                    <div class="featured-menu-shows flex-child-auto">
+                                        <div class="grid-x grid-margin-x">
+                                            <div class="cell large-4"></div>
+                                            <div class="cell large-4"></div>
+                                            <div class="cell large-4"></div>
+                                        </div>
+                                    </div>                                
+                                </div>
+                                <div class="grid-x align-right">
+                                    <div class="cell shrink">
+                                        <a href="" class="rounded button large bgWhite black flex-child-shrink">See All Shows</a>    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </li>
+                <li><span>|</span></li>
+                <li><a href="">Podcast</a></li>
+                <li><span>|</span></li>
+                <li><a href="">Blog</a></li>
+                <li><span>|</span></li>
+                <li><a href="">Yard</a></li>
+            </ul>
+        </nav>
     
         <section id="slider">
-            <div class="sliderimage"><img src="/assets/img/slide.jpg" alt=""></div> 
-            <div class="grid-container">
-                <div class="grid-x">
-                    <div class="slidecap cell large-8 align-middle">
-                        <h3 class="slidetitle white">Are Public Proposals Really Important?</h3>
-                        <p class="highlight">NEW EPISODE ON SLICE ‘N’ DICE</p>
-                        <a href="" class="rounded button cell">Watch Now</a>
-                    </div>
-                </div>
+            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                <ul class="orbit-container">
+                        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                    <li class="is-active orbit-slide">
+                        <div class="sliderimage"><img src="/assets/img/slide2.jpg" alt=""></div> 
+                        <div class="slidercon grid-container flex-container align-middle">
+                            <div class="grid-x">
+                                <div class="cell large-8">
+                                    <div class="slidecap">
+                                        <h3 class="slidetitle white gut1">Are Public Proposals Really Important?</h3>
+                                        <p class="highlight white">NEW EPISODE ON SLICE ‘N’ DICE</p>
+                                        <a href="" class="rounded button large bgGreen black flex-child-shrink">Watch Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="orbit-slide">
+                        <div class="sliderimage"><img src="/assets/img/slide3.jpg" alt=""></div> 
+                        <div class="slidercon grid-container flex-container align-middle">
+                            <div class="grid-x">
+                                <div class="cell large-8">
+                                    <div class="slidecap">
+                                        <h3 class="slidetitle white gut1">Are Public Proposals Really Important?</h3>
+                                        <p class="highlight white">BOILER ROOM S1E4</p>
+                                        <a href="" class="rounded button large bgWhite black flex-child-shrink">Watch Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <nav class="orbit-bullets">
+                    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                </nav>
             </div>
         </section>
     
@@ -62,7 +121,11 @@
                                     <img src="/assets/img/sndnew.jpg" alt="">
                                     <div class="recText">
                                         <div class="recTitleCon">
-                                            <h3 class="recTitle bgGreen">Are Public Proposals Really Important?</h3>
+                                            <h3 class="recTitle bgBlack">
+                                                <span class="featuredtitle">
+                                                    Are Public Proposals Really Important?
+                                                </span>
+                                            </h3>
                                         </div> 
                                         <div class="grid-x flex-container align-top align-justify marTop2">
                                             <p class="cell large-8">Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
@@ -77,7 +140,11 @@
                             <img src="/assets/img/sndnew.jpg" alt="">
                             <div class="recText">
                                 <div class="recTitleCon">
-                                    <h3 class="recTitle bgBlue">A very interesting and catchy title deserves this space</h3>
+                                    <h3 class="recTitle bgBlack">
+                                        <span class="featuredtitle">
+                                            Is Don Jazzy a Legend?
+                                        </span>
+                                    </h3>
                                 </div> 
                                 <div class="grid-x flex-container align-top align-justify marTop2">
                                     <p class="cell large-8">Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
@@ -91,7 +158,7 @@
             </div>
             <div class="featureblog padY10">                
                 <div class="grid-container">
-                    <h2 class="cat">Must Read</h2>
+                    <h2 class="cat black">Must Read</h2>
                     <div class="grid-x grid-margin-x owl-carousel">
                         <div class="cell large-4 bCon">
                             <h4 class="bCat bgRed">Pop-Culture</h4>
@@ -129,15 +196,42 @@
                             </div>
                         </div>
     
+                        <!-- <div class="cell large-4 bCon">
+                            <h4 class="bCat bgOrange">Features</h4>
+                            <img src="/assets/img/blogimg3.jpg" alt="">
+                            <div class="cell large-4 bText">
+                                <h5>Article Title Comes here</h5>
+                                <p>Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
+                                <a href="" class="readmore">
+                                    Continue Reading
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="cell large-4 bCon">
+                            <h4 class="bCat bgOrange">Features</h4>
+                            <img src="/assets/img/blogimg3.jpg" alt="">
+                            <div class="cell large-4 bText">
+                                <h5>Article Title Comes here</h5>
+                                <p>Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
+                                <a href="" class="readmore">
+                                    Continue Reading
+                                </a>
+                            </div>
+                        </div>                 -->
+    
                     </div>
                 </div>            
             </div>
         </section>
         <section id="yard">
             <div class="grid-container">
-               <div class="grid-x">
-                    <div class="cell">
-                        <img src="/assets/svg/yardad.svg" alt="">
+               <div class="grid-x flex-container">
+                    <div class="cell large-12 gut1">
+                        <img src="/assets/svg/yardad.svg" alt="" class="">
+                    </div>
+                    <div>
+                        <a href="" class="rounded button large bgWhite black flex-child-shrink">Learn More</a>
                     </div>
                </div>
             </div>
@@ -197,5 +291,6 @@
     </div>
 
     <script src="assets/js/app.js"></script>
+    <script src="/assets/owlcarousel/owl.carousel.min.js"></script>
   </body>
 </html>
