@@ -6,22 +6,19 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zamari TV</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     
   </head>
   <body>
 
-    <div id="maincontainer">
-        <header class="">
+    
+        <header id="menu">
             <div class="grid-container">
                 <div class="grid-x align-justify align-middle">
-                    <div class="brand cell shrink">
-                       <a href="" target="_blank"><img src="/assets/svg/logo.svg" alt=""></a>
+                    <div class="brand cell large-shrink small-5">
+                       <a href="index.html"><img src="/assets/svg/logo.svg" alt=""></a>
                     </div>                
                     <div class="access cell shrink">
                         <ul class="menu">
@@ -29,34 +26,59 @@
                             <li><a href="">Register</a></li>
                         </ul>
                     </div>
-                </div>
+                    <div class="kebab">
+                        <figure></figure>
+                        <figure class="middle"></figure>
+                        <p class="cross">x</p>
+                        <figure></figure>
+                    </div>
             </div>
-        </header>
+        </header>    <div id="maincontainer">
         <nav class="nav-bar">
             <ul class="menu main align-center-middle">
                 <li>
-                    <a href="tv.html" class="dropdown">TV</a>
+                    <a href="#" class="dropdown">TV</a>
                         <div class="mega-menu">
                             <div class="grid-container inner-mega-menu">
-                                <div class="grid-x gut2">
-                                    <ul class="shrink">
-                                        <li><a href="">Shows</a></li>
+                                <div class="grid-x align-center small-left">
+                                    <ul class="sub">
+                                        <li><a href="#">Shows</a>
+                                            <div class="mega-menu2">
+                                                <div class="grid-container">
+                                                    <div class="grid-x grid-margin-x grid-margin-y small-up-2 medium-up-4 gut2 align-center small-left">
+                                                        <div class="cell"><a href="shows-page.html"><img src="assets/img/navshow.jpg" alt=""></a></div>
+                                                        <div class="cell"><a href="shows-page.html"><img src="assets/img/navshow.jpg" alt=""></a></div>
+                                                        <div class="cell"><a href="shows-page.html"><img src="assets/img/navshow.jpg" alt=""></a></div>
+                                                        <div class="cell"><a href="shows-page.html"><img src="assets/img/navshow.jpg" alt=""></a></div>                                                    
+                                                    </div>
+                                                    <div class="grid-x align-center small-left">
+                                                        <div class="cell shrink">
+                                                            <a href="shows.html" class="button large bgWhite black flex-child-shrink">See All Shows</a>    
+                                                        </div>
+                                                    </div>
+                                                </div>                                          
+                                            </div>
+                                        </li>
                                         <li><a href="">Short Films</a></li>
                                         <li><a href="">Feature Films</a></li>
-                                        <li><a href="">Documentaries</a></li>
+                                        <li><a href="#">Documentaries</a>
+                                            <div class="mega-menu2">
+                                                <div class="grid-container">
+                                                    <div class="grid-x grid-margin-x grid-margin-y small-up-2 medium-up-4 gut2 align-center small-left">
+                                                        <div class="cell"><a href=""><img src="assets/img/navshow.jpg" alt=""></a></div>
+                                                        <div class="cell"><a href=""><img src="assets/img/navshow.jpg" alt=""></a></div>
+                                                        <div class="cell"><a href=""><img src="assets/img/navshow.jpg" alt=""></a></div>
+                                                        <!-- <div class="cell"><a href=""><img src="assets/img/show-snd.jpg" alt=""></a></div>                                                     -->
+                                                    </div>
+                                                    <div class="grid-x align-center small-left">
+                                                        <div class="cell shrink">
+                                                            <a href="" class="button large bgWhite black flex-child-shrink">See All Documentaries</a>    
+                                                        </div>
+                                                    </div>
+                                                </div>                                          
+                                            </div>
+                                        </li>
                                     </ul>
-                                    <div class="featured-menu-shows flex-child-auto">
-                                        <div class="grid-x grid-margin-x">
-                                            <div class="cell large-4"></div>
-                                            <div class="cell large-4"></div>
-                                            <div class="cell large-4"></div>
-                                        </div>
-                                    </div>                                
-                                </div>
-                                <div class="grid-x align-right">
-                                    <div class="cell shrink">
-                                        <a href="" class="rounded button large bgWhite black flex-child-shrink">See All Shows</a>    
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -64,59 +86,63 @@
                 <li><span>|</span></li>
                 <li><a href="">Podcast</a></li>
                 <li><span>|</span></li>
-                <li><a href="">Blog</a></li>
+                <li><a href="blog.html">Blog</a>
+                        
+                </li>
                 <li><span>|</span></li>
                 <li><a href="">Yard</a></li>
             </ul>
-        </nav>
-    
-        <section id="slider">
-            <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-                <ul class="orbit-container">
-                        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-                        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-                    <li class="is-active orbit-slide">
-                        <div class="sliderimage"><img src="/assets/img/slide2.jpg" alt=""></div> 
-                        <div class="slidercon grid-container flex-container align-middle">
-                            <div class="grid-x">
-                                <div class="cell large-8">
-                                    <div class="slidecap">
-                                        <h3 class="slidetitle white gut1">Are Public Proposals Really Important?</h3>
-                                        <p class="highlight white">NEW EPISODE ON SLICE ‘N’ DICE</p>
-                                        <a href="" class="rounded button large bgGreen black flex-child-shrink">Watch Now</a>
+        </nav>        <section id="slider">
+                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                        <ul class="orbit-container">
+                                <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                                <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                            <li class="is-active orbit-slide">
+                                <div class="sliderimage clearfix"><img src="/assets/img/slide2.jpg" alt=""></div> 
+                                <div class="slidercon">
+                                    <div class="grid-container flex-container align-middle">
+                                        <div class="grid-x">
+                                            <div class="cell large-8">
+                                                <div class="slidecap">
+                                                    <h3 class="slidetitle white gut1">Are Public Proposals Really Important?</h3>
+                                                    <p class="highlight white">NEW EPISODE ON SLICE ‘N’ DICE</p>
+                                                    <a href="" class="rounded button large bgGreen black flex-child-shrink">Watch Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="orbit-slide">
-                        <div class="sliderimage"><img src="/assets/img/slide3.jpg" alt=""></div> 
-                        <div class="slidercon grid-container flex-container align-middle">
-                            <div class="grid-x">
-                                <div class="cell large-8">
-                                    <div class="slidecap">
-                                        <h3 class="slidetitle white gut1">Are Public Proposals Really Important?</h3>
-                                        <p class="highlight white">BOILER ROOM S1E4</p>
-                                        <a href="" class="rounded button large bgWhite black flex-child-shrink">Watch Now</a>
+                            </li>
+                            <li class="orbit-slide">
+                                <div class="sliderimage clearfix"><img src="/assets/img/slide3.jpg" alt=""></div> 
+                                <div class="slidercon">
+                                    <div class="grid-container flex-container align-middle">
+                                        <div class="grid-x">
+                                            <div class="cell large-8">
+                                                <div class="slidecap">
+                                                    <h3 class="slidetitle white gut1">Are Public Proposals Really Important?</h3>
+                                                    <p class="highlight white">BOILER ROOM S1E4</p>
+                                                    <a href="" class="rounded button large bgWhite black flex-child-shrink">Watch Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-                <nav class="orbit-bullets">
-                    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-                    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-                </nav>
-            </div>
-        </section>
-    
+                            </li>
+                        </ul>
+                        <nav class="orbit-bullets">
+                            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                        </nav>
+                    </div>
+                </section>
         <section id="content" class="">
             <div class="recommend grid-container padY10">
-                <h2 class="cat black">What's Hot</h2>
-                <div class="grid-x grid-margin-x">
-                    <div class="cell large-6">
-                            <div class="recCon borderOrange">
+                    <h2 class="cat black">What's Hot</h2>
+                    <div class="grid-x medium-up-2 grid-margin-x">
+                        <div class="cell flex-container">
+                            <div class="card">
+                                <div class="recCon borderOrange">
                                     <h4 class="bCat bgOrange">TV</h4>
                                     <img src="/assets/img/sndnew.jpg" alt="">
                                     <div class="recText">
@@ -133,164 +159,253 @@
                                         </div>
                                     </div>                        
                                 </div>
-                    </div>
-                    <div class="cell large-6">
-                        <div class="recCon borderMagenta">
-                            <h4 class="bCat bgMagenta">PODCAST</h4>
-                            <img src="/assets/img/sndnew.jpg" alt="">
-                            <div class="recText">
-                                <div class="recTitleCon">
-                                    <h3 class="recTitle bgBlack">
-                                        <span class="featuredtitle">
-                                            Is Don Jazzy a Legend?
-                                        </span>
-                                    </h3>
-                                </div> 
-                                <div class="grid-x flex-container align-top align-justify marTop2">
-                                    <p class="cell large-8">Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
-                                    <a href="" class="rounded button cell bgMagenta shrink">Listen Now</a>
+                            </div>
+                        </div>
+            
+                        <div class="cell flex-container">
+                                <div class="card">
+                                    <div class="recCon borderMagenta">
+                                        <h4 class="bCat bgMagenta">PODCAST</h4>
+                                        <img src="/assets/img/sndnew.jpg" alt="">
+                                        <div class="recText">
+                                            <div class="recTitleCon">
+                                                <h3 class="recTitle bgBlack">
+                                                    <span class="featuredtitle">
+                                                        Is Don Jazzy a Legend?
+                                                    </span>
+                                                </h3>
+                                            </div> 
+                                            <div class="grid-x flex-container align-top align-justify marTop2">
+                                                <p class="cell large-8">Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
+                                                <a href="" class="rounded button cell bgMagenta shrink">Listen Now</a>
+                                            </div>
+                                        </div>                        
+                                    </div>
                                 </div>
-                            </div>                        
+                            </div>
+                    </div>
+                    
+                </div>        <div id="ourshows" class="padY10 bgBlack">
+                <div class="grid-container">
+                    <h2 class="cat white">Our Shows</h2>
+                    <div class="grid-x small-up-2 medium-up-4 grid-margin-x grid-margin-y">
+                        <div class="cell">
+                            <img src="assets/img/show-snd.jpg" alt="">
+                        </div>
+                        <div class="cell">
+                            <img src="assets/img/show-snd.jpg" alt="">
+                        </div>
+                        <div class="cell">
+                            <img src="assets/img/show-snd.jpg" alt="">
+                        </div>
+                        <div class="cell">
+                            <img src="assets/img/show-snd.jpg" alt="">
                         </div>
                     </div>
                 </div>
-                
             </div>
             <div class="featureblog padY10">                
                 <div class="grid-container">
                     <h2 class="cat black">Must Read</h2>
-                    <div class="grid-x grid-margin-x owl-carousel">
-                        <div class="cell large-4 bCon">
-                            <h4 class="bCat bgRed">Pop-Culture</h4>
-                            <img src="/assets/img/blogimg.jpg" alt="">
-                            <div class="cell large-4 bText">
-                                <h5>Article Title Comes here</h5>
-                                <p>Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
-                                <a href="" class="readmore">
-                                    Continue Reading
-                                </a>
+                    <div class="grid-x medium-up-3 grid-margin-x">
+                        <div class="cell">
+                            <div class="card">
+                                <h4 class="bCat bgRed">Pop-Culture</h4>
+                                <img src="assets/img/blogimg.jpg">
+                                <div class="card-section">
+                                    <a href=""><h4 class="padB4">Helen from Slice and Dice show, got engaged to last night.</h4></a>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                </div>
+                                <div class="card-divider rPad">
+                                    <a href="" class="button bgDGray">More Pop-Culture</a>
+                                </div>
                             </div>
                         </div>
     
-                        <div class="cell large-4 bCon">
-                            <h4 class="bCat bgBlue">Lifestyle</h4>
-                            <img src="/assets/img/blogimg2.jpg" alt="">
-                            <div class="cell large-4 bText">
-                                <h5>Article Title Comes here</h5>
-                                <p>Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
-                                <a href="" class="readmore">
-                                    Continue Reading
-                                </a>
+                        <div class="cell">
+                            <div class="card">
+                                <h4 class="bCat bgBlue">Lifestyle</h4>
+                                <img src="assets/img/blogimg2.jpg">
+                                <div class="card-section">
+                                    <a href=""><h4 class="padB4">Helen from Slice and Dice show, got engaged to last night.</h4></a>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                </div>
+                                <div class="card-divider rPad">
+                                    <a href="" class="button bgDGray">More Lifestyle</a>
+                                </div>
                             </div>
                         </div>
     
-                        <div class="cell large-4 bCon">
-                            <h4 class="bCat bgOrange">Features</h4>
-                            <img src="/assets/img/blogimg3.jpg" alt="">
-                            <div class="cell large-4 bText">
-                                <h5>Article Title Comes here</h5>
-                                <p>Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
-                                <a href="" class="readmore">
-                                    Continue Reading
-                                </a>
+                        <div class="cell">
+                            <div class="card">
+                                <h4 class="bCat bgYellow">Features</h4>
+                                <img src="assets/img/blogimg2.jpg">
+                                <div class="card-section">
+                                    <a href=""><h4 class="padB4">Helen from Slice and Dice show, got engaged to last night.</h4></a>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                </div>
+                                <div class="card-divider rPad">
+                                    <a href="" class="button bgDGray">More Features</a>
+                                </div>
                             </div>
                         </div>
     
-                        <!-- <div class="cell large-4 bCon">
-                            <h4 class="bCat bgOrange">Features</h4>
-                            <img src="/assets/img/blogimg3.jpg" alt="">
-                            <div class="cell large-4 bText">
-                                <h5>Article Title Comes here</h5>
-                                <p>Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
-                                <a href="" class="readmore">
-                                    Continue Reading
-                                </a>
+                        <div class="cell">
+                            <div class="card">
+                                <h4 class="bCat bgMagenta">Music</h4>
+                                <img src="assets/img/blogimg2.jpg">
+                                <div class="card-section">
+                                    <a href=""><h4 class="padB4">Helen from Slice and Dice show, got engaged to last night.</h4></a>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                </div>
+                                <div class="card-divider rPad">
+                                    <a href="" class="button bgDGray">More Music</a>
+                                </div>
                             </div>
                         </div>
     
-                        <div class="cell large-4 bCon">
-                            <h4 class="bCat bgOrange">Features</h4>
-                            <img src="/assets/img/blogimg3.jpg" alt="">
-                            <div class="cell large-4 bText">
-                                <h5>Article Title Comes here</h5>
-                                <p>Love and Public Display of Affection (PDA ) are just two of many sides of a  rolling dice. Watch popular actress  Heleena Nelson propose to  MTV Shuga co-cast  Alvin Abayomi on EPISODE 3 of Slice and  Dice</p>
-                                <a href="" class="readmore">
-                                    Continue Reading
-                                </a>
+                        <div class="cell">
+                            <div class="card">
+                                <h4 class="bCat bgGreen">Culture</h4>
+                                <img src="assets/img/blogimg3.jpg">
+                                <div class="card-section">
+                                    <a href=""><h4 class="padB4">Helen from Slice and Dice show, got engaged to last night.</h4></a>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                </div>
+                                <div class="card-divider rPad">
+                                    <a href="" class="button bgDGray">More Culture</a>
+                                </div>
                             </div>
-                        </div>                 -->
+                        </div>
     
+                        <div class="cell">
+                            <div class="card">
+                                <h4 class="bCat bgBlack">Innovation</h4>
+                                <img src="assets/img/blogimg2.jpg">
+                                <div class="card-section">
+                                    <a href=""><h4 class="padB4">Helen from Slice and Dice show, got engaged to last night.</h4></a>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                    <div class="card-divider">
+                                    <a href=""><p class="smallheadlines">Another juicy story, set to break out on the 31st of December</p></a>
+                                    </div>
+                                </div>
+                                <div class="card-divider rPad">
+                                    <a href="" class="button bgDGray">More Innovation</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>            
             </div>
         </section>
         <section id="yard">
             <div class="grid-container">
-               <div class="grid-x flex-container">
-                    <div class="cell large-12 gut1">
+                <div class="grid-x flex-container">
+                    <div class="cell large-12 small-12 gut1">
                         <img src="/assets/svg/yardad.svg" alt="" class="">
                     </div>
                     <div>
-                        <a href="" class="rounded button large bgWhite black flex-child-shrink">Learn More</a>
+                        <a href="" class="button large rounded bgWhite black flex-child-shrink">Learn More</a>
                     </div>
-               </div>
+                </div>
             </div>
             
-        </section>
-        <footer class="bgBlack padY10">
-            <div class="grid-container">
-                <div class="grid-x flexbox-containter align-justify">
-                            <div class="cell shrink">
-                                <img src="/assets/svg/icon.svg" alt="">
-                            </div>
-                            <div class="cell large-4">
-                                <h4>ABOUT ZAMARI TV</h4>
-                                <p>Zamari is an eclectic platform dedicated to curating compelling conversations powered by storytelling. It is for the unique tribe of forward thinking Africans: all united by a shared desire to write a new history.</p>
-                            </div>
-                    <div class="cell shrink">
-                        <h4>TV</h4>
-                        <ul class="vertical menu">
-                            <li><a href="">Shows</a></li>
-                            <li><a href="">Documentaries</a></li>
-                            <li><a href="">Short Films</a></li>
-                            <li><a href="">Feature Films</a></li>
-                        </ul>
+        </section>    <footer class="bgBlack padY10" id="footer">
+                <div class="grid-container">
+                    <div class="grid-x flexbox-containter grid-margin-y align-justify">
+                        <div class="cell large-shrink small-12">
+                            <img src="/assets/svg/icon.svg" alt="">
+                        </div>
+                        <div class="cell large-4">
+                            <h4>ABOUT ZAMARI TV</h4>
+                            <p>Zamari is an eclectic platform dedicated to curating compelling conversations powered by storytelling. It is for the unique tribe of forward thinking Africans: all united by a shared desire to write a new history.</p>
+                        </div>
+                        <div class="cell large-shrink small-6">
+                            <h4>TV</h4>
+                            <ul class="vertical menu">
+                                <li><a href="">Shows</a></li>
+                                <li><a href="">Documentaries</a></li>
+                                <li><a href="">Short Films</a></li>
+                                <li><a href="">Feature Films</a></li>
+                            </ul>
+                        </div>
+                        <div class="cell large-shrink small-6">
+                            <h4>BLOG</h4>
+                            <ul class="vertical menu">
+                                <li><a href="">Lifestyle</a></li>
+                                <li><a href="">Pop Culture</a></li>
+                                <li><a href="">Features</a></li>
+                                <li><a href="">Innovation</a></li>
+                                <li><a href="">Reviews</a></li>
+                            </ul>
+                        </div>
+                        <div class="cell large-shrink small-6">
+                            <h4>YARD</h4>
+                            <ul class="vertical menu">
+                                <li><a href="">Register</a></li>
+                                <li><a href="">Sign In</a></li>
+                                <li><a href="">Events</a></li>
+                                <li><a href="">Community</a></li>
+                            </ul>
+                        </div>
+                        <div class="cell large-shrink small-6">
+                            <h4>LEGAL</h4>
+                            <ul class="vertical menu">
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms and Conditions</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="cell shrink">
-                        <h4>BLOG</h4>
-                        <ul class="vertical menu">
-                            <li><a href="">Lifestyle</a></li>
-                            <li><a href="">Pop Culture</a></li>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">Innovation</a></li>
-                            <li><a href="">Reviews</a></li>
-                        </ul>
-                    </div>
-                    <div class="cell shrink">
-                        <h4>YARD</h4>
-                        <ul class="vertical menu">
-                            <li><a href="">Register</a></li>
-                            <li><a href="">Sign In</a></li>
-                            <li><a href="">Events</a></li>
-                            <li><a href="">Community</a></li>
-                        </ul>
-                    </div>
-                    <div class="cell shrink">
-                        <h4>LEGAL</h4>
-                        <ul class="vertical menu">
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Terms and Conditions</a></li>
-                        </ul>
+                    <div class="impressum grid-x">
+                        <p>&copy; Copyright 2018. Zamari TV | All rights reserved.</p>
                     </div>
                 </div>
-                <div class="impressum grid-x">
-                    <p>&copy; Copyright 2018. Zamari TV | All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
-    </div>
-
+            </footer></div>
     <script src="assets/js/app.js"></script>
-    <script src="/assets/owlcarousel/owl.carousel.min.js"></script>
   </body>
 </html>
