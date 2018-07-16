@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zamari TV</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/font/flaticon.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     
@@ -21,8 +22,10 @@
                     </div>                
                     <div class="access cell shrink">
                         <ul class="menu">
-                            <li><a href="">Login</a></li>
-                            <li><a href="">Register</a></li>
+                            <li><a href=""><i class="flaticon-youtube-symbol"></i></a></li>
+                            <li><a href=""><i class="flaticon-instagram-logo"></i></a></li>
+                            <li><a href=""><i class="flaticon-twitter"></i></a></li>
+                            <li><a href=""><i class="flaticon-facebook-logo"></i></a></li>
                         </ul>
                     </div>
                     <div class="kebab">
@@ -109,7 +112,7 @@
             </a>
         </div>    <div id="titlebar">
             <div class="grid-container">
-                <div class="grid-x flex-container align-center-middle">
+                <div class="grid-x flex-container">
                     <div class="cell">
                         <ul class="sublinks menu align-middle white small-vertical">
                             <li><a href="blog-page.html">Pop-Culture</a></li>
@@ -129,24 +132,57 @@
             </div>
         </div>    <section id="content">
             <div class="grid-x padY10 bgGray">
-                <div class="cell large 12">
-                    <div class="grid-container">
-                            <h2 class="cat black">TOP STORIES</h2>
-                    </div>                    
-                    <div class="grid-x">
-                        
-                        <div class="cell large-7">
-                            <img src="assets/img/bg-slicendice.jpg" alt="">
+                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+                            <ul class="orbit-container">
+                                    <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+                                    <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+                                <li class="is-active orbit-slide">
+                                    <div class="cell large 12">
+                                        <div class="grid-container">
+                                                <h2 class="cat black">TOP STORIES</h2>
+                                        </div>                    
+                                        <div class="grid-x">
+                                            
+                                            <div class="cell large-7">
+                                                <img src="assets/img/bg-slicendice.jpg" alt="">
+                                            </div>
+                                            <div class="cell large-5 bgWhite padXY2">
+                                                <h4 class="gut2">Article Title Comes Here</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas augue felis, eu tempus lectus consequat sit amet. Aliquam tristique convallis mi sed finibus. Nam quis nisl convallis convallis odio blandit gravida. Phasellus sit amet leo in eros blandit consequat. Suspendisse auctor augue quis consequat finibus. </p>
+                                                <a href="">Continue Reading</a>
+                                                <p class="details marTop3">June 15 | 340views</p>
+                                            </div>
+                                        </div>
+                                            
+                                    </div>
+                                </li>
+                                <li class="orbit-slide">
+                                    <div class="cell large 12">
+                                        <div class="grid-container">
+                                                <h2 class="cat black">TOP STORIES</h2>
+                                        </div>                    
+                                        <div class="grid-x">
+                                            
+                                            <div class="cell large-7">
+                                                <img src="assets/img/blog-slide.jpg" alt="">
+                                            </div>
+                                            <div class="cell large-5 bgWhite padXY2">
+                                                <h4 class="gut2">Buhari lost the 2019 Elections</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas augue felis, eu tempus lectus consequat sit amet. Aliquam tristique convallis mi sed finibus. Nam quis nisl convallis convallis odio blandit gravida. Phasellus sit amet leo in eros blandit consequat. Suspendisse auctor augue quis consequat finibus. </p>
+                                                <a href="">Continue Reading</a>
+                                                <p class="details marTop3">June 15 | 340views</p>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                            <nav class="orbit-bullets">
+                                <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                                <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                            </nav>
                         </div>
-                        <div class="cell large-5 bgWhite padXY2">
-                            <h4 class="gut2">Article Title Comes Here</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas augue felis, eu tempus lectus consequat sit amet. Aliquam tristique convallis mi sed finibus. Nam quis nisl convallis convallis odio blandit gravida. Phasellus sit amet leo in eros blandit consequat. Suspendisse auctor augue quis consequat finibus. </p>
-                            <a href="">Continue Reading</a>
-                            <p class="details marTop3">June 15 | 340views</p>
-                        </div>
-                    </div>
-                    
-                </div>
+                
             </div>
             <div class="grid-container padY10 blog">
                 <div class="grid-x grid-margin-x grid-margin-y medium-up-3">
